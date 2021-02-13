@@ -1,0 +1,42 @@
+Install and configure Git on your computer
+Install Git on your computer — you can view full documentation about this in our documentation site.
+Tell Git your name and e-mail address — this ensures all commits you make are owned by you.
+
+$ git config --global user.name "Abiola Akinnubi"
+$ git config --global user.email abiola.akinnubi@yahoo.com
+Create and push a new repository
+Enter the directory which you wish to import
+
+$ cd path/to/local/folder
+Initialise the folder as a Git repository
+
+$ git init
+Initialized empty Git repository in path/to/local/folder
+Add all files and commit for the first time
+
+$ git add .
+$ git commit -m "initial commit"
+[master (root-commit) 5cc0002] initial commit
+0 files changed, 0 insertions(+), 0 deletions(-)
+create mode 100644 README
+Add a remote reference for your new Codebase repository and push all changes to the new reference ('origin').
+
+$ git remote add origin git@codebasehq.com:mapleleaf/nape-e-library/membershipfrontend.git
+$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 205 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@codebasehq.com:mapleleaf/nape-e-library/membershipfrontend.git
+* [new branch]      master -> master
+Push an existing local repository
+If you already have a repository and simply wish to push this to Codebase, you can follow the steps below after entering the directory for the existing repository.
+Setup the remote reference for the new Codebase repository and push all branches to the remote
+
+$ git remote add origin git@codebasehq.com:mapleleaf/nape-e-library/membershipfrontend.git
+$ git push origin --mirror
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 205 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@codebasehq.com:mapleleaf/nape-e-library/membershipfrontend.git
+* [new branch]      master -> master
+* [new branch]      devel -> devel

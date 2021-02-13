@@ -1,0 +1,54 @@
+html{
+    overflow-x: hidden !important;
+}
+
+/*==== Typography ======*/
+.green-text{
+    color: rgba(1, 51, 39, 1) !important;
+}
+.text-emphasis-medium{
+    font-weight: 600 !important;
+}
+.white-text{
+    color: #FFFFFF !important;
+}
+
+.text-emphasis-bolder{
+    font-weight: 900 !important;
+}
+/* ======= End Typography ===== */
+/*============Nav styling============*/
+.nav-tab-custom{
+    height:60px !important;
+    margin: 15px auto !important;
+    justify-content: center;
+}
+/*============= End styling*/
+/*==== forms ======*/
+.input-no-border{
+    border: none !important;
+}
+.input-group-text-no-bg{
+    background: none !important;
+    border: none !important;
+}
+.form-check-input-custom{
+    background: #B1E023 !important;
+    border-color: #B1E023 !important;
+    color: #FFFFFF !important;
+}
+
+.fieldset-with-shadow{
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    max-height: 120px !important;
+}
+/* ======= form ===== */
+
+
+
+.col-with-padding{
+    margin: 20px 15px !important;
+}
+
+
