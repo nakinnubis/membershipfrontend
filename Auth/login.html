@@ -15,150 +15,155 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mastheader">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <div class="napelogo">
-
+    <div class="row">
+        <div class="col-md-7 col-left">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light mastheader">
+                <div class="wrapper" style="outline: 2px solid green;">
+                    <a class="navbar-brand" href="#">
+                        <div class="napelogo">
+        
+                        </div>
+                    </a>
                 </div>
-            </a>
+            </nav>
+            <div class="wrapper">
+                <div class="py-4">
+                    <div class="alert alert-success alert-bg" role="alert">
+                        <a href="#" class="alert-link no-style">Go Back</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <h1>Member Login</h1>
+                <form action="" method="post" class="login-fields">
+                    <fieldset class="fieldset-with-shadow card" >
+                        <div class="col-with-padding">
+                            <label for="memberid_email">Member ID or Email</label>
+                        </div>
+                        <div class="input-group mb-3 input-group-md">
+                            <input type="email" class="form-control  input-no-border" name="memberid_email"
+                                id="memberid_email" aria-label="Member Email or Membership Id"
+                                placeholder="enter your membership Id or email address"
+                                aria-describedby="memberid-email-icon">
+                            <span class="input-group-text input-group-text-no-bg" id="memberid-email-icon"><img src="../assets/images/profile.svg" alt=""></span>
+                        </div>
+                    </fieldset>
+                    <fieldset class="fieldset-with-shadow card">
+                        <div class="col-with-padding"><label for="Password">Password</label><span class="show-pass">Show</span></div>
+                        <div class="input-group mb-3 input-group-md">
+                            <input type="password" class="form-control input-no-border" name="password" id="password"
+                                aria-label="password" placeholder="password" aria-describedby="password-icon">
+                            <span class="input-group-text input-group-text-no-bg" id="password-icon"><img src="../assets/images/lock.svg" alt=""></span>
+                        </div>
+                    </fieldset>
+    
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="form-check col">
+                                <input class="form-check-input form-check-input-custom" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Keep me logged in
+                                </label>
+                            </div>
+                            <div class="col reset-style" >
+                                <a href="http://" class="nav-link" style="color: #7F8B94;">Reset Password</a>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <button type="submit" class="btn btn-success btn-block btn-nape-green">Login</button>
+                </form>
+            </div>
+            
+        
+         
         </div>
-    </nav>
-    <div class="flexcontainer">
-        <div class="loginmain">
-            <div class="alert alert-secondary login-back-panel" role="alert">
-                <a href="#" class="text-success nav-link green-text text-emphasis-bolder">Go Back</a>
-            </div>
-            <div>
-                <div class="col-md-8 col-md-auto">
-                    <h3 class="text-center">Member Login</h3>
-                </div>
-            </div>
-            <form action="" method="post" class="login-fields">
-                <fieldset class="fieldset-with-shadow card">
-                    <div class="col-with-padding">
-                        <label for="memberid_email">Member ID or Email</label>
-                    </div>
-                    <div class="input-group mb-3 input-group-md">
-                        <input type="email" class="form-control  input-no-border" name="memberid_email"
-                            id="memberid_email" aria-label="Member Email or Membership Id"
-                            placeholder="enter your membership Id or email address"
-                            aria-describedby="memberid-email-icon">
-                        <span class="input-group-text input-group-text-no-bg" id="memberid-email-icon">@</span>
-                    </div>
-                </fieldset>
-                <fieldset class="fieldset-with-shadow card">
-                    <div class="col-with-padding"><label for="Password">Password</label></div>
-                    <div class="input-group mb-3 input-group-md">
-                        <input type="password" class="form-control input-no-border" name="password" id="password"
-                            aria-label="password" placeholder="password" aria-describedby="password-icon">
-                        <span class="input-group-text input-group-text-no-bg" id="password-icon">@</span>
-                    </div>
-                </fieldset>
-
-                <div class="container-fluid">
+            <div class="col-md-5 loginsideview">
+                <div class="container ">
+                    
                     <div class="row">
-                        <div class="form-check col">
-                            <input class="form-check-input form-check-input-custom" type="checkbox"
-                                id="flexCheckChecked" checked name="">
-                            <label class="form-check-label" for="flexCheckChecked">
-                                Keep me logged in
-                            </label>
+                        <div class="col-md-12 right-view-header">
+                            <p class="h1 white-text text-strong">HI THERE!</p>
+                            <p class="h1 white-text text-strong">WELCOME TO </p>
+                            <p class="h1 white-text text-strong">THE ONLINE COMMUNITY OF</p>
+                            <p class="h1 white-text text-strong">NAPE MEMBERS</p>
                         </div>
-                        <div class="col">
-                            <a href="http://" class="nav-link">Reset Password</a>
-                        </div>
-                    </div>
-
-                </div>
-                <button type="submit" class="btn btn-success btn-block btn-nape-green">Login</button>
-
-            </form>
-        </div>
-        <div class="loginsideview">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="h1 white-text text-strong">HI THERE!</p>
-                        <p class="h1 white-text text-strong">WELCOME TO </p>
-                        <p class="h1 white-text text-strong">THE ONLINE COMMUNITY OF</p>
-                        <p class="h1 white-text text-strong">NAPE MEMBERS</p>
-                    </div>
-                    <div class="col-md-10">
-                        <div class="btn-group" role="group" aria-label="Basic example">
-                            <button type="button"
-                                class="nav-link btn btn-default btn-lg bg-white nav-tab-custom text-center">Individual
-                                Membership</button>
-                            <button type="button"
-                                class="nav-link btn btn-default btn-lg bg-white nav-tab-custom text-center">Corporate
-                                Membership</button>
-                        </div>
-                    </div>
-                    <div class="col-md-10 col-md-auto">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                    class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                    aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                    aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <p class="d-block w-100 text-justify white-text">Please note that an applicant for
-                                        ACTIVE membership of the
-                                        association must be a person engaged in the practice or teaching of the
-                                        geosciences or petroleum related science provided he/she holds at least a
-                                        Bachelor's Degree from an Educational Institution of acceptable academic
-                                        standards. This is in addition to at least three (3) years of work experience
-                                        (post NYSC) in the practice or teaching of the geosciences or petroleum related
-                                        science. Credit for experience can be counted as follows: Master’s: one (1)
-                                        year; Doctorate: two (two) years. Apply Now </p>
-
-                                </div>
-                                <div class="carousel-item">
-                                    <p class="d-block w-100 text-justify white-text">Please note that an applicant for
-                                        ACTIVE membership of the
-                                        association must be a person engaged in the practice or teaching of the
-                                        geosciences or petroleum related science provided he/she holds at least a
-                                        Bachelor's Degree from an Educational Institution of acceptable academic
-                                        standards. This is in addition to at least three (3) years of work experience
-                                        (post NYSC) in the practice or teaching of the geosciences or petroleum related
-                                        science. Credit for experience can be counted as follows: Master’s: one (1)
-                                        year; Doctorate: two (two) years. Apply Now </p>
-
-                                </div>
-                                <div class="carousel-item">
-                                    <p class="d-block w-100 text-justify white-text">Please note that an applicant for
-                                        ACTIVE membership of the
-                                        association must be a person engaged in the practice or teaching of the
-                                        geosciences or petroleum related science provided he/she holds at least a
-                                        Bachelor's Degree from an Educational Institution of acceptable academic
-                                        standards. This is in addition to at least three (3) years of work experience
-                                        (post NYSC) in the practice or teaching of the geosciences or petroleum related
-                                        science. Credit for experience can be counted as follows: Master’s: one (1)
-                                        year; Doctorate: two (two) years. Apply Now </p>
-
+                        <div class="row mb-4">
+                            <div class="col-md-6 no-padding" >
+                                <div class="d-grid">
+                                    <button class="btn btn-left">Individual Membership</button>
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
+                            <div class="col-md-6 no-padding">
+                                <div class="d-grid">
+                                    <button class="btn btn-right">Corporate Membership</button>
+                                </div>
+                            </div>
+
                         </div>
-                    </div>
-                </div>
-            </div>
+                        
+                        
+                        <div class="col-md-10 col-md-auto carousel-wrapper" >
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators carousel-dot">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <p class="d-block w-100 text-justify white-text">Please note that an applicant for
+                                            ACTIVE membership of the
+                                            association must be a person engaged in the practice or teaching of the
+                                            geosciences or petroleum related science provided he/she holds at least a
+                                            Bachelor's Degree from an Educational Institution of acceptable academic
+                                            standards. This is in addition to at least three (3) years of work experience
+                                            (post NYSC) in the practice or teaching of the geosciences or petroleum related
+                                            science. Credit for experience can be counted as follows: Master’s: one (1)
+                                            year; Doctorate: two (two) years. <a href="#" class="apply-now">Apply Now</a></p>
+    
+                                    </div>
+                                    <div class="carousel-item">
+                                        <p class="d-block w-100 text-justify white-text">Please note that an applicant for
+                                            ACTIVE membership of the
+                                            association must be a person engaged in the practice or teaching of the
+                                            geosciences or petroleum related science provided he/she holds at least a
+                                            Bachelor's Degree from an Educational Institution of acceptable academic
+                                            standards. This is in addition to at least three (3) years of work experience
+                                            (post NYSC) in the practice or teaching of the geosciences or petroleum related
+                                            science. Credit for experience can be counted as follows: Master’s: one (1)
+                                            year; Doctorate: two (two) years. <a href="#" class="apply-now">Apply Now</a> 
+                                        </p>
+    
+                                    </div>
+                                    <div class="carousel-item">
+                                        <p class="d-block w-100 text-justify white-text">Please note that an applicant for
+                                            ACTIVE membership of the
+                                            association must be a person engaged in the practice or teaching of the
+                                            geosciences or petroleum related science provided he/she holds at least a
+                                            Bachelor's Degree from an Educational Institution of acceptable academic
+                                            standards. This is in addition to at least three (3) years of work experience
+                                            (post NYSC) in the practice or teaching of the geosciences or petroleum related
+                                            science. Credit for experience can be counted as follows: Master’s: one (1)
+                                            year; Doctorate: two (two) years. <a href="#" class="apply-now">Apply Now</a>
+                                        </p>
+    
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+
+
+                     </div>
+                </div> 
+            </div> 
         </div>
+    
     </div>
-
 </body>
 
 </html>

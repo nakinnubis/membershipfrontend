@@ -1,0 +1,91 @@
+.header{
+    padding: 2rem 10rem;
+    background: rgba(1, 51, 39, 1);
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid orange;
+    /* width: 900px; */
+
+}
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+    padding-bottom: 0.7rem;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+    outline: 2px solid blue;
+
+}
+/* .padding-left{
+    padding-left: 2rem;
+} */
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: solid 2px orangered;
+    min-width: 160px;
+}
+.nape-logo{
+    outline: solid 2px brown;
+    max-width: 300px;
+}
+.social-icon {
+    max-width: 1.5rem;
+}
+
+.header-bottom {
+    outline: 2px solid pink;
+    display: flex;
+    justify-content: space-round;
+
+}
+.menu1 {
+    outline: 4px solid yellow;
+    
+}
+.banner{
+
+    background-image: url('../assets/images/hero.svg');
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    position: relative;
+    
+
+}
+.banner__info{
+    /* width: 10%; */
+    position: absolute;
+    /* left: 0; */
+    bottom: 0;
+    /* display: flex; */
+    outline: 1px solid red;
+    background-color: orange;
+    color: #fff;
+    width: 100%;
+    
+}
+
+.custom-card {
+    border: none;
+}
+
+@media only screen and (max-width: 750px) {
+    /* .header */
+    .nape-logo {
+        outline: 3px solid green;
+        max-width: 200px;
+    }
+
+    .social-icon{
+        max-width: 1.5rem;
+        outline: 1px solid red;
+        margin: 0 0.5rem;
+        /* min-width: 120px; */
+        
+    }
+}

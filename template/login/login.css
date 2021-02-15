@@ -60,9 +60,9 @@ margin-top: 80px;
 }
 
 .login-fields {
-  width: 70%;
+  /* width: 100%; */
   margin: 0 auto;
-  top: 100px;
+  /* top: 0px; */
   line-height: 30px;
   justify-content: center;
   align-items: center;
@@ -71,10 +71,33 @@ margin-top: 80px;
 }
 /*end login body*/
 
+.wrapper {
+  margin: 2rem 5rem;
+}
+
+.wrapper h1 {
+  color: #777777;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+}
+.alert-bg {
+  background: rgba(177, 224, 35, 0.1);
+  border: none;
+}
+
+.no-style {
+  text-decoration: none;
+}
 /* login sidebar or sideview style area*/
+.col-left {
+  padding-right: 0;
+}
 .loginsideview {
-  width: 45vw;
-  height: 100%;
+  /* width: 45vw; */
+  /* height: 100%; */
   background: rgba(0, 0, 0, 0.800000011920929);
   background-image: url('../login/assets/sideviewbg.png');
    background-repeat : no-repeat center center fixed; 
@@ -87,6 +110,32 @@ margin-top: 80px;
   overflow: hidden;
 }
 /* end of login sideview style area*/
+.right-view-header {
+  margin: 15rem 0 5rem 0;
+}
+.no-padding {
+  padding: 1px;
+}
+.btn-left {
+  background-color: #FFFFFF;
+  border-radius: 0;
+  color: #777777;
+  font-family: Poppins;
+  /* font-style: normal; */
+  font-weight: bold;
+  padding: 1.5rem;
+  /* font-size: 20px; */
+}
+.btn-right {
+  background-color:rgba(119, 119, 119, 0.5);
+  border-radius: 0;
+  color: #FFFFFF;
+  font-family: Poppins;
+  /* font-style: normal; */
+  font-weight: bold;
+  padding: 1.5rem;
+  /* font-size: 20px; */
+}
 
 /*Button stylings*/
 .btn-nape-green{
@@ -109,3 +158,36 @@ box-shadow: 0px 20px 70px rgba(0, 0, 0, 0.06);
 border-radius: 5px;
 }
 /*end fieldset styling*/
+.carousel-wrapper {
+  background: rgba(196, 196, 196, 0.2); 
+  padding: 2rem; 
+  width: 95%; 
+  margin-bottom: 1rem;
+}
+.carousel-dot {
+  margin-bottom: -1rem;
+}
+.apply-now {
+  color: #B1E023;
+  font-weight: bold;
+  text-decoration: none;
+}
+.show-pass {
+  position: absolute;
+  right: 8px;
+  font-weight: bold;
+  color: #EE5331;
+  cursor: pointer;
+
+}
+
+.reset-style {
+  text-align: right; 
+  padding-right: 0px;
+}
+
+@media only screen and (max-width: 760px) {
+  .loginsideview {
+    display: none;
+  }
+}
