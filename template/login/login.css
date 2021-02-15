@@ -14,17 +14,19 @@ body {
   overflow: hidden;
 }
 .napelogo {
-  width: 382px;
-  height: 75px;
-  background: url(../login/assets/napelogo.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 32px;
-  left: 168px;
-  overflow: hidden;
+
+  /* width: 200px; */
+  /* height: 75px; */
+  
+  /* background: url(../login/assets/napelogo.png); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center center; */
+  /* background-size: cover; */
+  /* opacity: 1; */
+  /* position: absolute; */
+  /* top: 32px; */
+  /* left: 168px; */
+  /* overflow: hidden; */
 }
 
 /**End of login header style area**/
@@ -72,7 +74,7 @@ margin-top: 80px;
 /*end login body*/
 
 .wrapper {
-  margin: 2rem 5rem;
+  margin: 2rem 3rem;
 }
 
 .wrapper h1 {
@@ -187,6 +189,13 @@ border-radius: 5px;
 }
 
 @media only screen and (max-width: 760px) {
+  .wrapper {
+    margin: 2rem;
+    
+  }
+  .keep-label {
+    font-size: 0.8rem;
+  }
   .loginsideview {
     display: none;
   }
