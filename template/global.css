@@ -1,10 +1,15 @@
 html{
     overflow-x: hidden !important;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 /*==== Typography ======*/
 .green-text{
-    color: rgba(1, 51, 39, 1) !important;
+    color: rgb(1, 51, 39) !important;
 }
 .text-emphasis-medium{
     font-weight: 600 !important;
@@ -12,7 +17,12 @@ html{
 .white-text{
     color: #FFFFFF !important;
 }
-
+.grey-text{
+    color: #777777;
+}
+.green-background{
+    background: #055844
+}
 .text-emphasis-bolder{
     font-weight: 900 !important;
 }
