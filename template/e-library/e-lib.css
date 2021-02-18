@@ -1,0 +1,153 @@
+.logo{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+
+.btn:focus,
+.search-input:focus{
+    box-shadow: none;
+}
+
+.login-span{
+    padding-left: 2rem;
+}
+.header-nav{
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 1rem;
+}
+.header-text{
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+.search{
+    border: 1px solid rgba(227, 222, 220, 0.29);
+    box-shadow: 0px 2px 7px rgba(102, 54, 27, 0.18);
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+    width: 30%;
+
+}
+.search-input{
+    border: none;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.31px;
+    color: #CED4DA;
+
+}
+.search-input:focus {
+    outline: none;
+}
+.drop-style{
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    text-transform: capitalize;
+    color: #055844;
+    padding: 1rem 5rem 1rem 1.5rem;
+    border-bottom: 1px solid #EFEFEF;
+}
+.card1-h2{
+    font-size: 3rem;
+    line-height: 4.5rem;
+}
+.card1-p{
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #AFB0B1;
+}
+.card1{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.625rem;
+    width: 70%;
+    height: 24rem;
+    margin: 2rem 0;
+    text-align: center;
+    padding: 1rem auto;
+}
+.card1 h6{
+    padding:2rem 0 5rem ;
+}
+.card1 h5{
+    font-size: 4.5rem;
+    align-self: flex-start;
+    letter-spacing: 1.1px;
+    margin-left: 1rem;
+
+}
+
+.card-flex{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.card1-a{
+    font-weight: 800;
+    font-size: 1.125rem;
+    line-height: 0.625rem;
+    letter-spacing: 0.31px;
+
+}
+
+.card2{
+    margin-bottom: 10rem;
+    width: 80%;
+    height: 35.19rem;
+    background: rgba(177, 224, 35, 0.1);
+    border-radius: 5px;
+    color: #68676F;
+    padding: 1rem 0 2rem 0 ;
+}
+.card2-a,
+.card2-a-res{
+    font-weight: 800;
+    font-size: 1.12rem;
+    line-height: 0.625rem;
+    letter-spacing: 0.31px;
+    color: #055844;
+    margin-bottom: 8.7rem;
+
+}
+
+.card2-a-res{
+    display: none;
+    margin-bottom: 1rem;
+}
+
+hr{
+    border: 1px solid #075F49;
+    margin-top: 5rem;
+}
+.card-button{
+    background: #075F49;
+    border-radius: 5px;
+    height: 3.5rem;
+    
+
+    
+}
+
+@media only screen and (max-width: 760px) {
+    .e-lib-logo {
+        max-width: 150px;
+        height: 60px;
+        align-items: center;
+    }
+    .card2-a-res{
+        display: block;
+    }
+    .res-div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card2-a{
+        display: none;
+    }
+    
+}
