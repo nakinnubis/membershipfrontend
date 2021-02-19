@@ -11,11 +11,8 @@
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="../template/global.css">
     <link href="../template/dashboard/dashboard.css" rel="stylesheet" />
-    <title>Dashboard</title>
+    <title>Member portal/E-library</title>
 
-    <style>
-        
-    </style>
 </head>
 
 <body>
@@ -114,86 +111,381 @@
                 </div>
             </div>
         </section>
+        <section class="container">
+            <h3 class="title">My Book History</h3>
+            <div class="filter w-100 row mb-2 mt-2">
+                <div class="col-md-4">
+                    <div class="search-wrapper my-3 p-2">
+                        <img class="search-icon" src="../assets/images/search-icon.svg" alt="Search Icon">
+                        <input type="text" class="search-input w-75" placeholder="Search books, author, keywords" />
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="filter-custom my-3 p-2">
+                        <button type="button" class="btn btn-primary books px-3 mb-1">
+                            Books <span class="badge bg-dark badge-custom">100</span>
+                            <span class="visually-hidden">unread messages</span>
+                        </button>
+                        <button type="button" class="btn btn-primary categories px-3 mb-1">
+                            Categories <span class="badge badge-cat">100</span>
+                            <span class="visually-hidden">unread messages</span>
+                        </button>
+                        <button type="button" class="btn btn-primary authors px-3 mb-1">
+                            Authors <span class="badge badge-cat">100</span>
+                            <span class="visually-hidden">unread messages</span>
+                        </button>
+                        <div class="btn-link-custom mb-1">
+                            <a class="btn btn-link btn-sm dropdown-toggle text-secondary text-decoration-none" href="#"
+                                role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                English
+                            </a>
 
-        <section class="container mt-3 mb-1 quick-action grey-text">
-            Quick Actions
-        </section>
-        <div class="container px-0">
-            <div class="row" style="padding: 0 !important;">
-                <div class="col-md-3">
-                    <div class="card mb-3 card-style">
-                        <div class="card-body text-center">
-                            <img src="../template/dashboard/assets/pay-due.svg" class="card-title py-3" alt="pay due">
-                            <p class="card-text">Pay Dues</p>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card mb-3 card-style">
-                        <div class="card-body text-center">
-                            <img src="../template/dashboard/assets/member-dir.svg" class="card-title py-3" alt="Image">
-                            <p class="card-text">Member Directory</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card mb-3 card-style">
-                        <div class="card-body text-center">
-                            <img src="../template/dashboard/assets/bulletin.svg" class="card-title py-3" alt="Image">
-                            <p class="card-text">Access Bulletin</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card mb-3 card-style">
-                        <div class="card-body text-center">
-                            <img src="../template/dashboard/assets/nape.svg" class="card-title py-3" alt="Image">
-                            <p class="card-text">NAPE News</p>
+
+                        <div class="btn-link-custom mb-1">
+                            <a class="btn btn-link btn-sm dropdown-toggle text-secondary text-decoration-none" href="#"
+                                role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Format
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="container list mb-5">
+            <p class="list-total mb-4">Showing 1- 100 of 1000 books</p>
+            <div class="row row-cols-1 row-cols-lg-4 g-5 mb-2">
+                <div class="col">
+                    <div class="card h-100 card-shadow">
+                        <div class="img-cont my-auto">
+                            <button class="btn-cus my-auto position-absolute px-3 py-1">Preview</button>
+                            <img src="../template/dashboard/assets/book-image.svg" class="card-img-top img-cus " alt="Books">
 
-        <div class="container grey-text w-100 table-title tab-border">
-            <strong>Recent Notification</strong>
-        </div>
-        <section class="container table-responsive tab-border">
-            <table class="table table-borderless table-mem">
-                <tbody>
-                    <tr style>
-                      <td>
-                          <span class="td-block py-2 grey-text"><strong>Constitutional Review Proposal</strong></span>
-                          <span class="td-block py-2 grey-text">Dear Esteemed Member, This is to inform you that the draft constitutional amendment proposal earlier uploaded has been withdrawn. This is to allow...</span>
-                        </td>
-                      <td class="align-middle grey-text">Sept 18 2020</td>
-                      <td class="align-middle">...</td>
-                    </tr>
-                    <tr style>
-                      <td>
-                          <span class="td-block py-2 grey-text"><strong>Constitutional Review Proposal</strong></span>
-                          <span class="td-block py-2 grey-text">Dear Esteemed Member, This is to inform you that the draft constitutional amendment proposal earlier uploaded has been withdrawn. This is to allow...</span>
-                        </td>
-                      <td class="align-middle grey-text">Sept 18 2020</td>
-                      <td class="align-middle">...</td>
-                    </tr>
-                    <tr style>
-                      <td>
-                          <span class="td-block py-2 grey-text"><strong>Constitutional Review Proposal</strong></span>
-                          <span class="td-block py-2 grey-text">Dear Esteemed Member, This is to inform you that the draft constitutional amendment proposal earlier uploaded has been withdrawn. This is to allow...</span>
-                        </td>
-                      <td class="align-middle grey-text">Sept 18 2020</td>
-                      <td class="align-middle">...</td>
-                      <tr style>
-                      <td >
-                          <span class="td-block py-2 grey-text"><strong>Constitutional Review Proposal</strong></span>
-                          <span class="td-block py-2 grey-text">Dear Esteemed Member, This is to inform you that the draft constitutional amendment proposal earlier uploaded has been withdrawn. This is to allow...</span>
-                        </td>
-                      <td class="align-middle grey-text">Sept 18 2020</td>
-                      <td class="align-middle">...</td>
-                    </tr>
-                </tbody>
-            </table>
+                        </div>
+                        <div class="card-body d-flex flex-nowrap align-content-center align-items-center justify-content-between">
+                            <p class="card-text card-lft">NAPE Conference Schedule of Events_2018</p>
+                            <p class="card-text card-rgt">N5,000</p>
+                        </div>
+                        <div class="card-footer bg-white text-center d-flex justify-content-evenly" >
+                            <img src="../template/dashboard/assets/book-icon.svg" class="card-ft-left" alt="Logo">
+                            <small class="card-ft-right align-self-center">Start reading</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-shadow">
+                        <div class="img-cont my-auto">
+                            <button class="btn-cus my-auto position-absolute px-3 py-1">Preview</button>
+                            <img src="../template/dashboard/assets/book-image.svg" class="card-img-top img-cus " alt="Books">
+
+                        </div>
+                        <div class="card-body d-flex flex-nowrap align-content-center align-items-center justify-content-between">
+                            <p class="card-text card-lft">NAPE Conference Schedule of Events_2018</p>
+                            <p class="card-text card-rgt">N5,000</p>
+                        </div>
+                        <div class="card-footer bg-white text-center d-flex justify-content-evenly" >
+                            <img src="../template/dashboard/assets/book-icon.svg" class="card-ft-left" alt="Logo">
+                            <small class="card-ft-right align-self-center">Start reading</small>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-shadow">
+                        <div class="img-cont my-auto">
+                            <button class="btn-cus my-auto position-absolute px-3 py-1">Preview</button>
+                            <img src="../template/dashboard/assets/book-image2.svg" class="card-img-top img-cus " alt="Books">
+                            
+
+                        </div>
+                        <div class="card-body d-flex flex-nowrap align-content-center align-items-center justify-content-between">
+                            <p class="card-text card-lft">NAPE Conference Schedule of Events_2018</p>
+                            <p class="card-text card-rgt">N5,000</p>
+                        </div>
+                        <div class="card-footer bg-white text-center d-flex justify-content-evenly" >
+                            <img src="../template/dashboard/assets/cart-icon.svg" class="card-ft-left" alt="Logo">
+                            <small class="card-ft-right align-self-center">Buy this book</small>
+                            <img src="../template/dashboard/assets/exclamation.svg" class="card-ft-left" alt="Logo">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 card-shadow">
+                        <div class="img-cont my-auto">
+                            <button class="btn-cus my-auto position-absolute px-3 py-1">Preview</button>
+                            <img src="../template/dashboard/assets/book-image3.svg" class="card-img-top img-cus " alt="Books">
+
+                        </div>
+                        <div class="card-body d-flex flex-nowrap align-content-center align-items-center justify-content-between">
+                            <p class="card-text card-lft">NAPE Conference Schedule of Events_2018</p>
+                            <p class="card-text card-rgt">N5,000</p>
+                        </div>
+                        <div class="card-footer bg-white text-center d-flex justify-content-evenly" >
+                            <img src="../template/dashboard/assets/cart-icon.svg" class="card-ft-left" alt="Logo">
+                            <small class="card-ft-right align-self-center">Buy this book</small>
+                            <img src="../template/dashboard/assets/exclamation.svg" class="card-ft-left" alt="Logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-shadow">
+                        <div class="img-cont my-auto">
+                            <button class="btn-cus my-auto position-absolute px-3 py-1">Preview</button>
+                            <img src="../template/dashboard/assets/book-image.svg" class="card-img-top img-cus " alt="Books">
+
+                        </div>
+                        <div class="card-body d-flex flex-nowrap align-content-center align-items-center justify-content-between">
+                            <p class="card-text card-lft">NAPE Conference Schedule of Events_2018</p>
+                            <p class="card-text card-rgt">N5,000</p>
+                        </div>
+                        <div class="card-footer bg-white text-center d-flex justify-content-evenly" >
+                            <img src="../template/dashboard/assets/book-icon.svg" class="card-ft-left" alt="Logo">
+                            <small class="card-ft-right align-self-center">Start reading</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-shadow">
+                        <div class="img-cont my-auto">
+                            <button class="btn-cus my-auto position-absolute px-3 py-1">Preview</button>
+                            <img src="../template/dashboard/assets/book-image.svg" class="card-img-top img-cus " alt="Books">
+
+                        </div>
+                        <div class="card-body d-flex flex-nowrap align-content-center align-items-center justify-content-between">
+                            <p class="card-text card-lft">NAPE Conference Schedule of Events_2018</p>
+                            <p class="card-text card-rgt">N5,000</p>
+                        </div>
+                        <div class="card-footer bg-white text-center d-flex justify-content-evenly" >
+                            <img src="../template/dashboard/assets/book-icon.svg" class="card-ft-left" alt="Logo">
+                            <small class="card-ft-right align-self-center">Start reading</small>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-shadow">
+                        <div class="img-cont my-auto">
+                            <button class="btn-cus my-auto position-absolute px-3 py-1">Preview</button>
+                            <img src="../template/dashboard/assets/book-image2.svg" class="card-img-top img-cus " alt="Books">
+                            
+
+                        </div>
+                        <div class="card-body d-flex flex-nowrap align-content-center align-items-center justify-content-between">
+                            <p class="card-text card-lft">NAPE Conference Schedule of Events_2018</p>
+                            <p class="card-text card-rgt">N5,000</p>
+                        </div>
+                        <div class="card-footer bg-white text-center d-flex justify-content-evenly" >
+                            <img src="../template/dashboard/assets/cart-icon.svg" class="card-ft-left" alt="Logo">
+                            <small class="card-ft-right align-self-center">Buy this book</small>
+                            <img src="../template/dashboard/assets/exclamation.svg" class="card-ft-left" alt="Logo">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 card-shadow">
+                        <div class="img-cont my-auto">
+                            <button class="btn-cus my-auto position-absolute px-3 py-1">Preview</button>
+                            <img src="../template/dashboard/assets/book-image3.svg" class="card-img-top img-cus " alt="Books">
+
+                        </div>
+                        <div class="card-body d-flex flex-nowrap align-content-center align-items-center justify-content-between">
+                            <p class="card-text card-lft">NAPE Conference Schedule of Events_2018</p>
+                            <p class="card-text card-rgt">N5,000</p>
+                        </div>
+                        <div class="card-footer bg-white text-center d-flex justify-content-evenly" >
+                            <img src="../template/dashboard/assets/cart-icon.svg" class="card-ft-left" alt="Logo">
+                            <small class="card-ft-right align-self-center">Buy this book</small>
+                            <img src="../template/dashboard/assets/exclamation.svg" class="card-ft-left" alt="Logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-shadow">
+                        <div class="img-cont my-auto">
+                            <button class="btn-cus my-auto position-absolute px-3 py-1">Preview</button>
+                            <img src="../template/dashboard/assets/book-image.svg" class="card-img-top img-cus " alt="Books">
+
+                        </div>
+                        <div class="card-body d-flex flex-nowrap align-content-center align-items-center justify-content-between">
+                            <p class="card-text card-lft">NAPE Conference Schedule of Events_2018</p>
+                            <p class="card-text card-rgt">N5,000</p>
+                        </div>
+                        <div class="card-footer bg-white text-center d-flex justify-content-evenly" >
+                            <img src="../template/dashboard/assets/book-icon.svg" class="card-ft-left" alt="Logo">
+                            <small class="card-ft-right align-self-center">Start reading</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-shadow">
+                        <div class="img-cont my-auto">
+                            <button class="btn-cus my-auto position-absolute px-3 py-1">Preview</button>
+                            <img src="../template/dashboard/assets/book-image.svg" class="card-img-top img-cus " alt="Books">
+
+                        </div>
+                        <div class="card-body d-flex flex-nowrap align-content-center align-items-center justify-content-between">
+                            <p class="card-text card-lft">NAPE Conference Schedule of Events_2018</p>
+                            <p class="card-text card-rgt">N5,000</p>
+                        </div>
+                        <div class="card-footer bg-white text-center d-flex justify-content-evenly" >
+                            <img src="../template/dashboard/assets/book-icon.svg" class="card-ft-left" alt="Logo">
+                            <small class="card-ft-right align-self-center">Start reading</small>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-shadow">
+                        <div class="img-cont my-auto">
+                            <button class="btn-cus my-auto position-absolute px-3 py-1">Preview</button>
+                            <img src="../template/dashboard/assets/book-image2.svg" class="card-img-top img-cus " alt="Books">
+                            
+
+                        </div>
+                        <div class="card-body d-flex flex-nowrap align-content-center align-items-center justify-content-between">
+                            <p class="card-text card-lft">NAPE Conference Schedule of Events_2018</p>
+                            <p class="card-text card-rgt">N5,000</p>
+                        </div>
+                        <div class="card-footer bg-white text-center d-flex justify-content-evenly" >
+                            <img src="../template/dashboard/assets/cart-icon.svg" class="card-ft-left" alt="Logo">
+                            <small class="card-ft-right align-self-center">Buy this book</small>
+                            <img src="../template/dashboard/assets/exclamation.svg" class="card-ft-left" alt="Logo">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 card-shadow">
+                        <div class="img-cont my-auto">
+                            <button class="btn-cus my-auto position-absolute px-3 py-1">Preview</button>
+                            <img src="../template/dashboard/assets/book-image3.svg" class="card-img-top img-cus " alt="Books">
+
+                        </div>
+                        <div class="card-body d-flex flex-nowrap align-content-center align-items-center justify-content-between">
+                            <p class="card-text card-lft">NAPE Conference Schedule of Events_2018</p>
+                            <p class="card-text card-rgt">N5,000</p>
+                        </div>
+                        <div class="card-footer bg-white text-center d-flex justify-content-evenly" >
+                            <img src="../template/dashboard/assets/cart-icon.svg" class="card-ft-left" alt="Logo">
+                            <small class="card-ft-right align-self-center">Buy this book</small>
+                            <img src="../template/dashboard/assets/exclamation.svg" class="card-ft-left" alt="Logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-shadow">
+                        <div class="img-cont my-auto">
+                            <button class="btn-cus my-auto position-absolute px-3 py-1">Preview</button>
+                            <img src="../template/dashboard/assets/book-image.svg" class="card-img-top img-cus " alt="Books">
+
+                        </div>
+                        <div class="card-body d-flex flex-nowrap align-content-center align-items-center justify-content-between">
+                            <p class="card-text card-lft">NAPE Conference Schedule of Events_2018</p>
+                            <p class="card-text card-rgt">N5,000</p>
+                        </div>
+                        <div class="card-footer bg-white text-center d-flex justify-content-evenly" >
+                            <img src="../template/dashboard/assets/book-icon.svg" class="card-ft-left" alt="Logo">
+                            <small class="card-ft-right align-self-center">Start reading</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-shadow">
+                        <div class="img-cont my-auto">
+                            <button class="btn-cus my-auto position-absolute px-3 py-1">Preview</button>
+                            <img src="../template/dashboard/assets/book-image.svg" class="card-img-top img-cus " alt="Books">
+
+                        </div>
+                        <div class="card-body d-flex flex-nowrap align-content-center align-items-center justify-content-between">
+                            <p class="card-text card-lft">NAPE Conference Schedule of Events_2018</p>
+                            <p class="card-text card-rgt">N5,000</p>
+                        </div>
+                        <div class="card-footer bg-white text-center d-flex justify-content-evenly" >
+                            <img src="../template/dashboard/assets/book-icon.svg" class="card-ft-left" alt="Logo">
+                            <small class="card-ft-right align-self-center">Start reading</small>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-shadow">
+                        <div class="img-cont my-auto">
+                            <button class="btn-cus my-auto position-absolute px-3 py-1">Preview</button>
+                            <img src="../template/dashboard/assets/book-image2.svg" class="card-img-top img-cus " alt="Books">
+                            
+
+                        </div>
+                        <div class="card-body d-flex flex-nowrap align-content-center align-items-center justify-content-between">
+                            <p class="card-text card-lft">NAPE Conference Schedule of Events_2018</p>
+                            <p class="card-text card-rgt">N5,000</p>
+                        </div>
+                        <div class="card-footer bg-white text-center d-flex justify-content-evenly" >
+                            <img src="../template/dashboard/assets/cart-icon.svg" class="card-ft-left" alt="Logo">
+                            <small class="card-ft-right align-self-center">Buy this book</small>
+                            <img src="../template/dashboard/assets/exclamation.svg" class="card-ft-left" alt="Logo">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 card-shadow">
+                        <div class="img-cont my-auto">
+                            <button class="btn-cus my-auto position-absolute px-3 py-1">Preview</button>
+                            <img src="../template/dashboard/assets/book-image3.svg" class="card-img-top img-cus" alt="Books">
+
+                        </div>
+                        <div class="card-body d-flex flex-nowrap align-content-center align-items-center justify-content-between">
+                            <p class="card-text card-lft">NAPE Conference Schedule of Events_2018</p>
+                            <p class="card-text card-rgt">N5,000</p>
+                        </div>
+                        <div class="card-footer bg-white text-center d-flex justify-content-evenly" >
+                            <img src="../template/dashboard/assets/cart-icon.svg" class="card-ft-left" alt="Logo">
+                            <small class="card-ft-right align-self-center">Buy this book</small>
+                            <img src="../template/dashboard/assets/exclamation.svg" class="card-ft-left" alt="Logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="pag my-5">
+                <div class="row d-flex justify-content-evenly">
+                    <div class="pag-col col-sm-3 my-1">
+                        <button class="btn"> < </button>
+                        <a class="btn btn-link btn-sm text-secondary text-decoration-none" href="#" role="button"> Prev </a>
+    
+                    </div>
+                    <div class="pag-col col-sm-3 my-1">
+                        <a class="btn btn-link btn-sm text-secondary text-decoration-none inactive" href="#" role="button"> 1 </a>
+                        <button class="btn active"> 2 </button>
+                        <a class="btn btn-link btn-sm text-secondary text-decoration-none inactive" href="#" role="button"> 3 </a>
+                        <a class="btn btn-link btn-sm text-secondary text-decoration-none inactive" href="#" role="button"> 4 </a>
+                        <a class="btn btn-link btn-sm text-secondary text-decoration-none inactive" href="#" role="button"> 5 </a>
+                    </div>
+                    <div class="pag-col col-sm-3 my-1">
+                        <a class="btn btn-link btn-sm text-secondary text-decoration-none" href="#" role="button"> Next </a>
+                        <button class="btn"> > </button>
+                        
+                    </div>
+                    <div class="pag-col col-sm-3 my-1 d-flex">
+                        <p class="align-self-baseline">Go to Page: </p>
+                        <input type="number" class="py-1 px-2 align-self-baseline">
+                        <button class="btn active go align-self-baseline"> Go </button>
+                    </div>
+                </div>
+            </section>
         </section>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"

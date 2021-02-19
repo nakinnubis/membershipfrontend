@@ -199,6 +199,194 @@
     border: 1px solid #CED4DA;
 }
 
+
+h3.title {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 6rem;
+    letter-spacing: 0.31px;
+    text-decoration: underline;
+    color: #055844;
+}
+
+.filter {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.search-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    background: #F9F8F8;
+    border: 1px solid rgba(227, 222, 220, 0.29);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.search-icon {
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+.search-input {
+    font-weight: normal;
+    font-size: 14px;
+    padding: 0 5px;
+    border: none;
+    background: #F9F8F8;
+    letter-spacing: 0.31px;
+    color: #777777;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.books {
+    background: #075F49;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+
+}
+
+.categories,
+.authors {
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    color: #000000;
+    font-weight: normal;
+    border: none;
+}
+
+.categories:hover,
+.authors:hover {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.books:hover {
+    background: #075F49;
+}
+
+.badge-custom,
+.badge-cat {
+    margin-left: 1rem;
+    font-weight: normal;
+}
+
+.badge-cat {
+    background: #CED4DA;
+    color: #000000;
+
+}
+
+.btn-link-custom {
+    display: inline;
+}
+
+.list-total {
+    font-size: 14px;
+    letter-spacing: 0.31px;
+    color: #777777;
+}
+
+.img-cont {
+    height: 150px;
+    position: relative;
+    display: flex;
+}
+
+.img-cus {
+    height: inherit;
+}
+
+.btn-cus {
+    display: block;
+    bottom: 20px;
+    right: 40%;
+    background: #075F49;
+    border-radius: 5px; 
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    font-weight: normal;
+
+}
+.card-lft {
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    letter-spacing: 0.31px;
+    color: #68676F;
+
+}
+.card-rgt {
+    font-weight: 800;
+    font-size: 0.9rem;
+    line-height: 10px;
+    letter-spacing: 0.31px;
+    color: #055844;
+    margin-left: 1rem;
+}
+
+.card-ft-right {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #075F49;
+}
+.card-shadow {
+    border: none;
+    box-shadow: 0px 7px 20px rgba(202, 203, 207, 0.5);
+    border-radius: 0px 0px 6px 6px;
+    
+}
+.pag-col button {
+    background: #F5F5FA;
+    border-radius: 6px;
+    border: none;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #8181A5;
+}
+.pag-col .inactive, .pag-col .active {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.21px;
+    color: #1C1D21;
+}
+.pag-col .active {
+    background: #075F49;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.pag-col p {
+    display: inline;
+    font-size: 0.9rem;
+}
+.pag-col input {
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    border-radius: 6px;
+    width: 45px;
+    margin-left: 0.6rem;
+}
+.pag-col input:focus {
+    outline: none; 
+}
+.pag-col .go {
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 0.6rem;
+}
+
+
 @media only screen and (max-width: 760px) {
     .logo {
         max-width: 150px;
