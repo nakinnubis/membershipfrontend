@@ -160,9 +160,10 @@ hr{
     margin: 5rem 0;
 }
 .checkbox,
+.checkbox:checked,
 .checkbox:focus{
     background: #B1E023;
-    border-radius: 2px;
+    border-color: #B1E023;
     
 }
 .checkbox-text{

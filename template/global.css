@@ -66,4 +66,12 @@ body{
     margin: 20px 15px !important;
 }
 
+/* footer */
+.Copyright{
+    font-size: 0.875rem;
+}
+/*  */
 
+.no-decor{
+    text-decoration: none;
+}
