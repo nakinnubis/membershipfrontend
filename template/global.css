@@ -28,6 +28,9 @@ body{
 .green-background{
     background: #055844
 }
+.light-green{
+    color: #075F49;
+}
 .text-emphasis-bolder{
     font-weight: 900 !important;
 }
