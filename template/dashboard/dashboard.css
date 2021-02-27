@@ -40,9 +40,9 @@
  
 }
 .li-span-style{
-    font-size: 0.875rem;
+    font-size: 0.7rem;
     line-height: 1.125rem;
-    padding-left: 0.625rem;
+    padding-left: 0.5rem;
 }
 .card-style{
     background: rgba(177, 224, 35, 0.1);
@@ -65,7 +65,7 @@
 .wel-box,
 .wel-msg {
     border-radius: 4px;
-    height: 3.125rem;
+    
     background: #FFFFFF;
     border: 1px solid #EFEFEF;
     box-sizing: border-box;
@@ -73,6 +73,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0.625rem;
+    
 }
 .wel-box {
     width: 67%;
@@ -80,6 +81,7 @@
     
     
 }
+
 .wel-box .mem-id {
     color: #055844;
     font-weight: bold;
@@ -104,7 +106,8 @@
 }
 .wel-msg img {
     height: 1.4rem;
-    align-self: center;
+    /* align-self: center; */
+    
 }
 .wel-msg p {
     font-family: Poppins;
@@ -112,7 +115,8 @@
     font-size: 0.9rem;
     line-height: 1.125rem;
     color: #777777;
-    align-self: baseline;
+    /* align-self: baseline; */
+    
 
 }
 
@@ -386,7 +390,18 @@ h3.title {
     margin-left: 0.6rem;
 }
 
+@media only screen and (max-width: 990px) {
+    .msg-span{
+        display: none;
+    }
+    .wel-msg {
+    width: auto;
 
+    }
+    .wel-msg img{
+        padding-right: 1rem;
+    }
+}
 @media only screen and (max-width: 760px) {
     .logo {
         max-width: 150px;

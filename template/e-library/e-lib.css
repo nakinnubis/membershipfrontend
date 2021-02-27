@@ -132,7 +132,8 @@
     padding: 1rem 0 2rem 0 ;
 }
 .card2-a,
-.card2-a-res{
+.card2-a-res,
+.back-anchor{
     font-weight: 800;
     font-size: 1.12rem;
     line-height: 0.625rem;
@@ -141,6 +142,7 @@
     margin-bottom: 8.7rem;
 
 }
+
 
 .card2-a-res{
     display: none;
@@ -443,7 +445,7 @@
     width: 200px;
 }
 
-footer {
+.big-footer {
     background: #013327;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.39);
     border-radius: 0px;
